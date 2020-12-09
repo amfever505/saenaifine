@@ -1,0 +1,141 @@
+/* music css */
+.music__block {
+  padding-top: 120px;
+}
+.music__block h1 {
+  font-size: 40px;
+  letter-spacing: 0.15em;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 12px;
+}
+.music__block h2 {
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  line-height: 1;
+  margin-top: 12px;
+}
+.music__block p {
+  letter-spacing: 0.1em;
+  line-height: 1;
+  font-size: 14px;
+}
+.music___topic a {
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  padding: 12px 24px 12px 0;
+  border-bottom: #e5477e solid 2px;
+
+  margin-top: 12px;
+  margin-bottom: 24px;
+  background: url(../img/common/icon_blank.png) right no-repeat;
+  background-size: 12px auto;
+  transition: opacity 0.5s ease;
+}
+.music___topic a:hover {
+  opacity: 0.6;
+}
+.music___topic {
+  border-bottom: #e6e9eb solid 2px;
+}
+
+/* album */
+.music__album {
+  padding-top: 20px;
+  margin-bottom: 80px;
+}
+.music__album__block {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+.music__album__block img {
+  width: 300px;
+  height: 300px;
+  margin-right: 28px;
+  border: #e6e9eb solid 1px;
+}
+
+.music__album__text {
+  width: 100%;
+}
+
+.music__album__title {
+  font-size: 18px;
+  padding-bottom: 12px;
+  margin-bottom: 24px;
+  border-bottom: #e6e9eb solid 2px;
+}
+.album__price {
+  margin-bottom: 20px;
+}
+.album__price span:first-child {
+  font-size: 18px;
+}
+.album__disc {
+  color: #82909a;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+.album__disc span:first-child {
+  display: inline-block;
+  font-size: 14px;
+  width: 116px;
+  text-align: center;
+  line-height: 24px;
+  border: #82909a solid 1px;
+  border-radius: 14px;
+  margin-right: 8px;
+}
+.music__album__text .album__list {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  margin-bottom: 16px;
+}
+.album__list span {
+  font-size: 12px;
+  color: #82909a;
+}
+
+/* movie */
+.music__movie {
+  margin-bottom: 80px;
+  height: 515px;
+  position: relative;
+}
+.music__movie iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* artist */
+.music__artist__block {
+  margin-bottom: 80px;
+}
+.music__artist__img {
+  margin-bottom: 60px;
+}
+
+.music__artist__comment {
+  width: 810px;
+  margin: 0 auto;
+}
+
+.music__artist__comment h4 {
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 16px;
+  border-bottom: #e6e9eb solid 2px;
+  margin-bottom: 20px;
+}
+.music__artist__comment p {
+  line-height: 1.5;
+}
